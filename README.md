@@ -11,6 +11,12 @@ This is a prototype web app for exploring user input handling with a clean UI, b
 
 ---
 
+## 🔗 Live Demo
+
+🌍 [View the website here](https://secretvlt.netlify.app/)
+
+---
+
 ## 🛠 Tech Stack
 
 - ⚛️ **React** (with Vite)
