@@ -69,7 +69,7 @@ const AddSecret = ({setAllSecrets}) => {
                     <div>
                         <fieldset className="fieldset">
                             <legend className="fieldset-legend">Full Secret *</legend>
-                            <textarea id='content' name='content' value={content} onChange={e=>setContent(e.target.value)} className="textarea textarea-secondary h-24 w-full" placeholder="Bio"></textarea>
+                            <textarea id='content' name='content' value={content} onChange={e=>setContent(e.target.value)} className="textarea textarea-secondary h-24 w-full" placeholder="All your secrets here..."></textarea>
                          
                         </fieldset>
                     </div>
