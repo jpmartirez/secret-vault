@@ -40,7 +40,7 @@ const AddSecret = ({setAllSecrets}) => {
                     <div className='flex flex-wrap gap-3 max-md:justify-center justify-between items-center'>
                         <fieldset className="fieldset">
                             <legend className="fieldset-legend">Username *</legend>
-                            <input name='username' value={username} type="text" className="input input-secondary" placeholder="Type here" onChange={e=>setUsername(e.target.value)}/>
+                            <input name='username' value={username} type="text" className="input input-secondary" placeholder="Username..." onChange={e=>setUsername(e.target.value)}/>
                         </fieldset>
 
                         <fieldset className="fieldset">
@@ -63,7 +63,7 @@ const AddSecret = ({setAllSecrets}) => {
 
                     <fieldset className="fieldset">
                             <legend className="fieldset-legend">Secret Title *</legend>
-                            <input type="text" name='title' value={title} onChange={e=>setTitle(e.target.value)} className="input input-secondary w-full" placeholder="Type here" />
+                            <input type="text" name='title' value={title} onChange={e=>setTitle(e.target.value)} className="input input-secondary w-full" placeholder="Title..." />
                     </fieldset>
 
                     <div>
